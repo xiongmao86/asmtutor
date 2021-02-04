@@ -41,7 +41,7 @@ nextNumber:
     call sprint
 
 .checkInt:
-    mov edi, 0
+    cmp edi, 0
     je .continue
     cmp esi, 0
     je .continue
